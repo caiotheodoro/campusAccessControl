@@ -33,7 +33,7 @@ class App extends Component {
           
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="/">
-              <img src={logo} width="300" height="100" alt="CampusAccessControlHome" />
+              <img src={logo} width="375.75" height="86.2" alt="CampusAccessControlHome" />
             </a>
             <div className="collpase nav-collapse">
               <ul className="navbar-nav mr-auto"> 

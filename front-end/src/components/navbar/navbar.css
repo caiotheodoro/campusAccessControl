@@ -14,7 +14,7 @@
 }
 
 .logo img {
-  max-height: 50px;
+  max-height: 172.4px;
   max-width: 100%;
 }
 
@@ -88,4 +88,8 @@
 .ant-dropdown-menu-item-active {
   background: #ff8d0052 !important;
   color: #ff8d00 !important;
+}
+
+.navbar {
+  padding: .9rem 0rem;
 }

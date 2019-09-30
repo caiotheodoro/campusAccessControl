@@ -6,9 +6,11 @@ import CreateTodo from "./create-todo.component";
 import { getUserId} from './services/auth';
 
   const MenuUser = props => {
-
+    const { match } = props;
+    let id = match.params;
   useEffect(() => {
-    console.log(match.params.id)
+
+    console.log(id)
   },[])  
   const url = "/useraccesslist/"+getUserId(); 
   const urlcriaracesso = "/criaracesso/"+getUserId();
